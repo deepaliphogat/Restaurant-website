@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image{
+background-image: url('./order.png');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+
+}
+
+
+#nav-elements{
+    text-align: center;
+    padding: 10px;
+}
+
+.h1{
+    text-align: center;
+    
+}
+
+.order.row form{
+    flex:1 1 50rem;
+    padding:1rem;
+    padding-left: 4cm;
+padding-right: 4cm;
+}
+
+.order .row form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding-left: 4cm;
+    padding-right: 4cm;
+    
+    
+}
+
+.order.row form .inputBox input, .order.row from textarea{
+    padding:1rem;
+    margin:1rem 0;
+    font-size: 1.7rem;
+    color:rgb(160, 21, 21);
+    text-transform:none;
+    border: .1rem solid rgba(124, 37, 159, 0.3);
+    border-radius:.5rem;
+    width:49%;
+    padding-left: 4cm;
+    padding-right: 4cm;
+    
+}
+
+.order .row form textarea{
+    width:50%;
+    resize:none;
+    height:8rem;
+    padding-left: 4cm;
+    padding-right: 4cm;
+    
+}
+
+.btn{
+    background: rgb(218, 170, 142);
+
+}
+
+.btn:hover{
+    box-shadow:inset 300px 0 0 0 #ea3672;
+    box-align: center;
+}
+
+
